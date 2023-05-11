@@ -1,0 +1,106 @@
+html body{
+    background-color: #ff9900;
+}
+
+.containernav{
+    /* position: relative;
+*/
+display: flex;
+} 
+
+
+.top-left{
+    justify-content: flex-start;
+    align-self: flex-start;
+   
+    margin-top: 1px;
+    
+    height: 3.12em;
+    width: 3.12em;
+}
+.navbar{
+    float:right;
+}
+
+.heading{
+    text-align: center;
+    color: orangered;
+}
+
+
+.containerNood{
+    text-align: center;
+    font-size: 2.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style-type: none;
+    color: aliceblue;
+}
+
+
+.product-list {
+    width: 90%;
+    float: right;
+  }
+
+  .products h1 {
+    letter-spacing: 3px;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .products {
+    padding: 6rem 0;
+  }
+
+  .products h2 {
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: grey;
+    margin-bottom: 3rem;
+  }
+
+  .product-item {
+    margin: 1rem 1rem 1rem 1rem;
+    background-color: #ffff;
+    padding: 1rem 0;
+  }
+
+  .product-img {
+    height: 80%;
+    width: 80%;
+  }
+
+  /* here is mobile */
+
+@media (min-width:320px) {
+  
+    
+}
+
+/* here is for tablet - portriat */
+
+@media (min-width:768px) {
+    
+
+}
+
+/* here is for landscap tablet */
+@media (min-width:1024px) {
+    
+    
+}
+
+/* here is for desktop */
+@media (min-width:1224px) {
+    
+    
+}
+

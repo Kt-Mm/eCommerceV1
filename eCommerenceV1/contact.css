@@ -1,0 +1,72 @@
+html body{
+    background-color: orange;
+}
+
+.container{
+    /* position: relative;
+*/
+display: flex;
+} 
+
+
+.top-left{
+    justify-content: flex-start;
+    align-self: flex-start;
+    margin-top: 1px;
+    /* top: 0.625em;
+    left: 1em; */
+    height: 3.12em;
+    width: 3.12em;
+}
+
+.wrapper{
+    margin-top: 3vw;
+    box-shadow: 0 0 20px 0 gray;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3vw;
+}
+
+.company-info{
+    text-align: center;
+    color: black;
+    width: 40%;
+   position: relative;
+    align-content: center;
+    background-color: whitesmoke;
+    letter-spacing: 2px;
+    }
+
+ .contact h3{
+        text-align: center;
+        font-size: 2.3vw;
+        letter-spacing: 2px;
+    }
+
+/* here is mobile */
+
+@media (min-width:320px) {
+  
+    
+}
+
+/* here is for tablet - portriat */
+
+@media (min-width:768px) {
+    
+
+}
+
+/* here is for landscap tablet */
+@media (min-width:1024px) {
+    
+    
+}
+
+/* here is for desktop */
+@media (min-width:1224px) {
+    
+    
+}
+
+

@@ -1,0 +1,172 @@
+html body{
+    background-color: #ff9900;
+}
+
+
+.containernav{
+    /* position: relative;
+*/
+display: flex;
+} 
+
+
+.top-left{
+    justify-content: flex-start;
+    align-self: flex-start;
+   
+    margin-top: 1px;
+    /* top: 0.625em;
+    left: 1em; */
+    height: 3.12em;
+    width: 3.12em;
+}
+
+
+
+.container{
+    align-content: center;
+    /* justify-content: center; */
+    
+}
+
+.navbar{
+    float: right;
+    margin-top: -1;
+    display: inline-block;
+    border: 2px solid #ffff90;
+    padding: 8px;
+}
+
+h3{
+    color: white;
+}
+
+h1{
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    color: wheat;
+}
+
+h2, h4{
+    color: orangered;
+}
+.animepic{
+ float: right;
+ padding-right: 50%;
+ height: 200px;
+ width: 200px;
+    
+}
+
+
+#slidetitle {
+    font-size: 3vw;
+    margin-top: 10vw;
+    width: 70%;
+    border-right: 10px solid white;
+    border-top: 10px solid white;
+    padding: 2vw 2vw 2vw 2vw;
+    letter-spacing: 4px;
+    color:orangered;
+    text-align: center;
+}
+
+.img{
+    width: 200;
+    height: 100;
+}
+
+.slideimage {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 1vw 0 white;
+}
+
+.slideshowcontainer {
+    width: 40vw;
+    height: 46vw;
+    background-color: aliceblue;
+  }
+  .imagecontainer {
+    width: 100%;
+    height: 100%;
+  }
+
+#featurednoodle{
+    font-size: 2.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    padding: 2vw 2vw 2vw 2vw;
+    border-right: 10px solid white;
+    letter-spacing: 2px;
+}
+
+.xcolor1 {
+    padding: 2vw 2vw 2vw 2vw;
+    width: 70%;
+    border-right: 10px white solid;
+}
+
+.buttoncontainer .slidebutton {
+    display: inline-block;
+    height: 1vw;
+    width: 1vw;
+    border-radius: .5vw;
+    background-color: yellow;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.slidebutton:hover {
+    background-color: blue;
+    transition: .7s;
+}
+
+
+
+.socialbg1{
+    display: flex;
+    justify-items: center;
+}
+.socialimg{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* here is mobile */
+
+@media (min-width:320px) {
+    .animepic{
+        float: right;
+        height: 100px;
+        width: 100px;
+       }
+    
+}
+
+/* here is for tablet - portriat */
+
+@media (min-width:768px) {
+    
+
+}
+
+/* here is for landscap tablet */
+@media (min-width:1024px) {
+    
+    
+}
+
+/* here is for desktop */
+@media (min-width:1224px) {
+    
+    
+}
+
+

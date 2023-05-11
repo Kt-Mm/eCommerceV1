@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="index.css" rel="stylesheet" type="text/css">
+    
+        <title>eCommerence Project v1</title>
+      </head>
+      
+      <body onload="startUp()">  <!-- starts our slide -->
+<!-- here is my logo & company name -->
+       
+    <div class="container">
+    <img src="logo2.jpeg" class="top-left" alt="noodleBowlLogo">
+    <h3><a href="index.html">Ramen5</a></h3>
+    </div>
+     <!-- Creating NAV BAR -->
+    <header>
+    <nav class="containernav">
+        <div class="navbar" id="topnavbar">
+          <a href="index.html" class="active">Home</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html">Contact</a>
+          <!-- used awesome font for cart icon -->
+          <a class="shopcart"><i class="fa fa-shopping-cart icon-4x"></i></a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <!-- adds and removes responsive class from navbar class when clicked-->
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    </header>
+<!-- main section -->
+    <main>
+        <section>
+          
+          <h1>Ramen5</h1>
+        </section>
+
+        <section>
+          <img src="homepagepic.avif" class="animepic" alt="instant noodle" height="260vh" width="500vw"> 
+          <h2>Making your dinner easier.</h2>
+          <h4>Who said instant ramen couldn't be delicious </h4>
+          <button><a href="products.html">Shop Products</a></button>
+        </section>
+
+
+
+    <!-- Here is where my slides begin -->
+    <div id="slidetitle"><b>FEATURED NOODLES</b></div>
+    <section id="featurednoodle">
+      <div class="slideshowcontainer">
+        <div class="imagecontainer">
+          <img class="slideimage" src="slidePho.jpeg" alt="Image-Slider" id="img1" >
+        </div>
+      </div>
+    </section>
+
+    <section class="xSection">
+        <div class="buttoncontainer">
+          <a class="slidebutton" onclick="slideShow(0)"></a> <!-- Select slideshow image-->
+          <a class="slidebutton" onclick="slideShow(1)"></a>
+          <a class="slidebutton" onclick="slideShow(2)"></a>
+        </div><br>
+      </section>
+
+      <br> 
+      <br>
+
+
+      </body>
+      <footer>
+      <section class="socialbg1">FOLLOW US ON SOCIAL MEDIA</section>
+        <div class="socialimg">
+            <!--facebook S.M link  -->
+          <a href="https://www.facebook.com/" height="20" width="20"
+              ><img src="Facebooklogo.html" alt="Facebooklogo"
+            ></a>
+          </div>
+          <!-- Insta SM link -->
+          <div class="socialimg">
+            <a href="https://www.instagram.com/" height="20" width="15"
+              ><img src="IgLogo.avif" alt="Instagramlogo"
+            ></a>
+          </div>
+
+          <!-- twitter S.M link -->
+          <div class="socialimg">
+            <a href="https://twitter.com/"
+              ><img src="twitterLogo.png" alt="twitterLogo" height="20" width="20"
+              ></a>
+              </div>
+
+              <!-- tiktok s.m link] -->
+           
+           <div class="socialimg">
+            <a href="https://www.tiktok.com/"
+              ><img src="tiktoklogo.jpeg" alt="tiktokLogo" height="20" width="20"
+            ></a>
+          </div>
+
+        </section>    
+      </footer>
+      <script>
+        //* adds & removes responsive class to/from top nav when icon is clicked. */
+function myFunction() {
+    var x = document.getElementById("topnavbar");
+    if (x.className === "navbar") {
+      x.className += " responsive";
+    } else {
+      x.className = "navbar";
+    }
+  }
+
+  let images = [ //images array to be used for slideshow.
+  {
+      imageUrl:"slidePho.jpeg"
+  },
+
+  {
+      imageUrl:"Slidestirfry.jpeg"
+  },
+
+  {
+      imageUrl:"hotpotSlide.png"
+  }
+]
+
+let showImage = 0; // starts slideshow with array index of 0
+// allows you to select which image you want (onclick function in html)
+function slideShow(imageIndex){
+  document.getElementById('img1').src=images[imageIndex].imageUrl;
+}
+
+// starts up slideshow,
+function startUp(){
+    document.getElementById('img1').src=images[showImage].imageUrl;
+  }
+
+  // interval for slideshow, images change every 5 seconds.
+setInterval(() => {
+    startUp();
+    showImage++;
+    if (showImage == images.length){ // showImage starts with 0 and increments by 1, once it passes 2 it resets to 0, 2 is the last number of the array
+      showImage = 0
+    };
+    }, 2500)
+      </script>
+</html>

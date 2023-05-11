@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Free Web tutorials">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="John Doe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="product.css" type="text/css" rel="stylesheet">
+        <link src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link src="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
+        <title>eCommerence Project v1</title>
+      </head>
+      
+     <!-- this will load product data from JSON file --> 
+      <body onload="loadJSON()">    
+       
+        <div class="container">
+          <img src="logo2.jpeg" class="top-left" alt="noodleBowlLogo">
+          <h3><a href="index.html">Ramen5</a></h3>
+          </div>
+           <!-- Creating NAV BAR -->
+          <header>
+          <nav class="containernav">
+              <div class="navbar" id="topnavbar">
+                <a href="index.html" class="active">Home</a>
+                <a href="products.html">Products</a>
+                <a href="contact.html">Contact</a>
+                <!-- used awesome font for cart icon -->
+                <a class="shopcart"><i class="fa fa-shopping-cart icon-4x"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <!-- adds and removes responsive class from navbar class when clicked-->
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+            </nav>
+
+
+
+            <h1 class="heading">OUR NOODLES</h1>
+            <div class="containerNood">
+              <section class="sideoptions"> <!--Side Bar-->
+                <div class="sect">
+                 
+                  <ul> 
+                    <li>Soups</li>
+                    <li>Stir Fry</li>
+                    <li>Hotpot</li>
+                  </ul>
+                </div>  
+              </section>
+            </div>
+
+            <div class="product-list"> <!--Product list class for JSON pulling-->
+
+      </body>
+      <footer>
+        <section class="socialbg1">FOLLOW US ON SOCIAL MEDIA</section>
+        <div class="socialimg">
+            <!--facebook S.M link  -->
+          <a href="https://www.facebook.com/" height="20" width="20"
+              ><img src="Facebooklogo.jpeg" alt="Facebooklogo"
+            ></a>
+          </div>
+          <!-- Insta SM link -->
+          <div class="socialimg">
+            <a href="https://www.instagram.com/" height="20" width="15"
+              ><img src="IgLogo.avif" alt="Instagramlogo"
+            ></a>
+          </div>
+
+          <!-- twitter S.M link -->
+          <div class="socialimg">
+            <a href="https://twitter.com/"
+              ><img src="twitterLogo.png" alt="twitterLogo" height="20" width="20"
+              ></a>
+              </div>
+
+              <!-- tiktok s.m link] -->
+           
+           <div class="socialimg">
+            <a href="https://www.tiktok.com/"
+              ><img src="tiktoklogo.jpeg" alt="tiktokLogo" height="20" width="20"
+            ></a>
+          </div>
+
+        </section>    
+      </footer>
+      <script src="products.js"> 
+  //   let products = {
+  //     "product": [
+  //     {
+  //       "name": "BULDAK STIR FRY NOODLE",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "Spicy Stir Fry Noodles",
+  //       "imgSrc": "photos/buldak.png"
+  //     },
+  //     {
+  //       "name": "SELF HEATING HOTPOT",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "Instant self heating hotpot soup",
+  //       "imgSrc": "photos/Hotpot.webp"
+  //     },
+  //     {
+  //       "name": "YO-SELF HEATING HOTPOT",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "Instant self heating hotpot soup",
+  //       "imgSrc": "photos/hotpot2tomatoe.jpeg"
+  //     },
+  //     {
+  //       "name": "KOKA STIR FRY",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "KOKA SPICY STIR FRY",
+  //       "imgSrc": "photos/kokaStirfry.jpeg"
+  //     },
+  //     {
+  //       "name": "MAMA VARIETY PACK",
+  //       "price": "$25.00pk",
+  //       "desc": "3 FLAVOR VARIETY:CHICKEN, PORK, CREAMY THUM YUM",
+  //       "imgSrc": "photos/mama3flavor.jpeg"
+  //     },
+  //     {
+  //       "name": "MIGORENG",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "A FRIED NOODLE",
+  //       "imgSrc": "photos/Migoreng.jpeg"
+  //     },
+  //     {
+  //       "name": "MAMA PADTHAI ",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "INSTANT PAD THAI STIR FRY",
+  //       "imgSrc": "photos/padthaiStirfry.jpeg"
+  //     },
+  //     {
+  //       "name": "MAMA BEEF PHO",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "INSTANT BEEF FLAVOR PHO",
+  //       "imgSrc": "photos/Phobeef.jpeg"
+  //     },
+  //     {
+  //       "name": "MAMA CHICKEN PHO",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "INSTANT CHICKEN FLAVOR PHO",
+  //       "imgSrc": "photos/PhoGa.jpeg"
+  //     },
+  //     {
+  //       "name": "SPICY SHIN NOODLE SOUP",
+  //       "price": "$2.50ea/$10.00pk",
+  //       "desc": "SPICY NOODLE SOUP ",
+  //       "imgSrc": "productimages/navylogotee.png"
+  //     }
+    
+  //   ]
+  // }
+   
+      
+    </script>
+</html>

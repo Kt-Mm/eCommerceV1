@@ -1,0 +1,65 @@
+{
+    "product": [
+      {
+        "name": "BULDAK STIR FRY NOODLE",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "Spicy Stir Fry Noodles",
+        "imgSrc": "photos/buldak2.png"
+      },
+      {
+        "name": "SELF HEATING HOTPOT",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "Instant self heating hotpot soup",
+        "imgSrc": "photos/Hotpot.webp"
+      },
+      {
+        "name": "YO-SELF HEATING HOTPOT",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "Instant self heating hotpot soup",
+        "imgSrc": "photos/hotpot3.png"
+      },
+      {
+        "name": "KOKA STIR FRY",
+        "price": "$2.50/$25.00pk",
+        "desc": "KOKA SPICY STIR FRY",
+        "imgSrc": "photos/koka2.webp"
+      },
+      {
+        "name": "MAMA SOUP",
+        "price": "$25.00pk",
+        "desc": "PA-LO DUCK FLAVOR NOODLE SOUP",
+        "imgSrc": "photos/mamasoup.webp"
+      },
+      {
+        "name": "MIGORENG",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "A FRIED NOODLE",
+        "imgSrc": "photos/Migoreng.jpeg"
+      },
+      {
+        "name": "MAMA PADTHAI ",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "INSTANT PAD THAI STIR FRY",
+        "imgSrc": "photos/padthaiStirfry.jpeg"
+      },
+      {
+        "name": "MAMA BEEF PHO",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "INSTANT BEEF FLAVOR PHO",
+        "imgSrc": "photos/phomama.jpeg"
+      },
+      {
+        "name": "MAMA CHICKEN PHO",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "INSTANT CHICKEN FLAVOR PHO",
+        "imgSrc": "photos/PhoGa.jpeg"
+      },
+      {
+        "name": "SPICY SHIN NOODLE SOUP",
+        "price": "$2.50ea/$10.00pk",
+        "desc": "SPICY NOODLE SOUP ",
+        "imgSrc": "photos/shin.png"
+      }
+    
+    ]
+  }
